@@ -1,26 +1,23 @@
 {
-  "name": "CAPTCHAfa",
-  "version": "1.0",
+  "name": "captchafa",
+  "version": "1.0.0",
   "description": "CAPTCHAfa NodeJS module",
   "main": "index.js",
-  "author": {
-	"name": "Amin Akbari",
-	"website": "http://eamin.me",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/eAmin/node-captchafa.git"
+    "url": "https://github.com/eAmin/node-captchafa.git"
   },
   "keywords": [
-    "cpatchafa",
+    "captchafa",
     "captcha",
-    "recatpchafa",
+    "recaptchafa",
     "persian",
-    "farsi"
+    "farsi",
+    "eamin"
   ],
-  "license": "MIT",
-  "dependencies": {},
-  "engines": {
-    "node": "0.8.x"
-  }
+  "author": "Amin Akbari",
+  "license": "MIT"
 }
