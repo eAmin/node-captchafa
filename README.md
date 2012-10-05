@@ -1,6 +1,6 @@
 ﻿#Node-CAPTCHAfa
 
- node-captchafa v1.0
+ node-captchafa v1.0.1
 
  CAPTCHAfa API in NodeJS
 
