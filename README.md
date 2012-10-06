@@ -35,11 +35,10 @@ http.createServer(function(req, res) {
 			cf.on('data', function(cfaRes) {
 				if (cfaRes.is_valid == true) {
 					res.write('درست است');
-					res.end();
 				} else {
 					res.write('Error : ' + cfaRes.error);
-					res.end();
 				}
+				res.end();
 			});
 
 			cf.verify(post.captchafa_challenge_field, post.captchafa_response_field);
